@@ -1,0 +1,40 @@
+.login-form {
+    -fx-padding: 20px; /* Padding around the form */
+    -fx-spacing: 10px; /* Spacing between form elements */
+    -fx-alignment: center; /* Align form elements to the center */
+}
+.welcome-text {
+    -fx-font-size: 20px; 
+    -fx-text-fill: white !important; 
+}
+/* Label styling */
+.login-label {
+    -fx-font-size: 14px; 
+    -fx-text-fill: white; 
+}
+
+.login-textfield {
+    -fx-pref-width: 100px; 
+    -fx-max-width: 200px; 
+}
+
+.login-passwordfield {
+    -fx-pref-width: 100px; 
+    -fx-max-width: 200px; 
+}
+
+/* Login button styling */
+.login-button {
+    -fx-background-color: #90cdf4; /* Green background color */
+    -fx-text-fill: black; /* White text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 3px 10px; /* Padding */
+    -fx-border-radius: 10px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-color: transparent; /* Border color */
+}
+
+/* Login button hover effect */
+.login-button:hover {
+    -fx-background-color: rgb(55, 126, 137); /* Darker green background color on hover */
+}

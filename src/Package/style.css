@@ -1,0 +1,35 @@
+/* Navigation bar styles */
+.nav-bar {
+    -fx-padding: 10px;
+}
+
+/* Application name styles */
+.app-name {
+    -fx-fill: white; /* White text color */
+    -fx-font-size: 20px; /* Larger font size */
+    -fx-font-weight: bold; /* Bold font */
+}
+.Marketplace{
+    -fx-fill: white; /* White text color */
+    -fx-font-size: 16px; /* Larger font size */
+    -fx-padding: 15px; /* Increased padding */
+    -fx-border-insets: 15px;
+    -fx-background-insets: 15px;
+}
+/* Button styles */
+.nav-button {
+    -fx-background-color: #2d303d; /* Green background color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Larger font size */
+    -fx-padding: 3px 5px; /* Increased padding */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-color: transparent; /* Border color */
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+/* Button hover styles */
+.nav-button:hover {
+    -fx-background-color: #272a36; 
+}

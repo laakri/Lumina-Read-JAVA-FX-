@@ -1,0 +1,27 @@
+/* XL text styling */
+.xl-text {
+    -fx-font-size: 36px; /* Font size */
+    -fx-fill: white; /* Text color */
+}
+
+/* MD text styling */
+.md-text {
+    -fx-font-size: 24px; /* Font size */
+    -fx-fill: white; /* Text color */
+}
+
+/* Button styling */
+.learn-more-button {
+    -fx-background-color: #4c9eaf; /* Green background color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 16px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-color: transparent; /* Border color */
+}
+
+/* Button hover effect */
+.learn-more-button:hover {
+    -fx-background-color: #38818e; /* Darker green background color on hover */
+}
